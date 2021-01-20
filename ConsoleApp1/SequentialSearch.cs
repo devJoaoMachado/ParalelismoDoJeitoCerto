@@ -1,31 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace ConsoleApp1
 {
-    class BuscaSequencial
+    public class SequentialSearch
     {
-        public static void Executar(Func<string[]> arrayBuilder, int sleep = 0)
+        public static void Execute(
+            int arraySize, 
+            bool writeFiles = false)
         {
-            Console.WriteLine("- BuscaSequencial");
+            Console.WriteLine("- SequentialSearch");
 
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
 
-            string[] guids = arrayBuilder();
-            var ocorrencias = 0;
+            string[] guids = Infra.BuildArrayGuids(arraySize);
+            var occurrencies = 0;
+            
             for (int i = 0; i < guids.Length; i++)
             {
                 if (guids[i].Contains("c-"))
-                    Console.Write($"\r Ocorrência: {1 + ocorrencias++}");
+                {
+                    Console.Write($"\r Ocorrências 'c-': {1 + occurrencies++}");
 
-                if (sleep > 0)
-                    Thread.Sleep(sleep);
+                    if (writeFiles)
+                        Infra.WriteTxtFile(guids[i]);
+                }
             }
 
             stopWatch.Stop();
