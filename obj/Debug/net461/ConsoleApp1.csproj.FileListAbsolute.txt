@@ -1,0 +1,9 @@
+C:\Users\T-Gamer\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net461\ConsoleApp1.exe.config
+C:\Users\T-Gamer\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net461\ConsoleApp1.exe
+C:\Users\T-Gamer\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net461\ConsoleApp1.pdb
+C:\Users\T-Gamer\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net461\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\T-Gamer\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net461\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\T-Gamer\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net461\ConsoleApp1.AssemblyInfo.cs
+C:\Users\T-Gamer\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net461\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\T-Gamer\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net461\ConsoleApp1.exe
+C:\Users\T-Gamer\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net461\ConsoleApp1.pdb
