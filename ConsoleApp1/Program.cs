@@ -21,8 +21,8 @@ namespace ConsoleApp1
             Console.WriteLine($"Execução com I/O ");
             Console.WriteLine("====================================");
 
-            SequentialSearch.Execute(arraySize, true);
-            ParallelFor.Execute(arraySize, true);
+            SequentialSearch.Execute(arraySize, writeFiles: true);
+            ParallelFor.Execute(arraySize, writeFiles: true);
 
             Console.ReadKey();
         }
