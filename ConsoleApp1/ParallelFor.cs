@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
@@ -9,15 +9,13 @@ namespace ConsoleApp1
     public class ParallelFor
     {
         public static void Execute(
-            int arraySize,
+            string[] guids,
             bool writeFiles = false)
         {
             Console.WriteLine("- ParallelFor");
 
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-            string[] guids = Infra.BuildArrayGuids(arraySize);
-
 
             var occurrencies = 0;
             Action<int> action = (param) =>
